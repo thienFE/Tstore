@@ -1,0 +1,30 @@
+.favorite-container {
+  position: absolute;
+  right: 16px;
+  top: 120px;
+  left: 218px;
+
+  .empty {
+    margin: 120px auto 0;
+    padding: 44px 0 520px 0;
+    h1 {
+      font-size: 2rem;
+      color: #555;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 772px) {
+  .favorite-container {
+    left: 16px;
+  }
+}
+
+@media (min-height: 1024px) {
+  .favorite-container {
+    .row {
+      padding-bottom: 760px;
+    }
+  }
+}

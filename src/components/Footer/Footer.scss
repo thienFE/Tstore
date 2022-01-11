@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  height: 32%;
+  margin-left: 16px;
+  border-radius: 6px;
+  padding: 24px 0;
+
+  .social-media {
+    margin: 28px 0 18px 0;
+  }
+
+  a {
+    i {
+      font-size: 2.6rem;
+      margin: 0 12px;
+      transition: all 0.2s linear;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    &.facebook {
+      color: #0e8cf1;
+    }
+
+    &.insta {
+      color: tomato;
+    }
+
+    &.github {
+      color: #000;
+    }
+  }
+
+  p {
+    margin-bottom: 18px;
+    font-size: 1.5rem;
+    color: #f8c052;
+
+    i {
+      color: tomato;
+    }
+  }
+}
+
+@media (max-width: 772px) {
+  .footer {
+    background-color: #fff;
+  }
+}
